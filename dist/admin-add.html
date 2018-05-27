@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' data: 'unsafe-eval' 'unsafe-inline'; frame-src 'self'" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Keywords" content="Mengna ZHU, Evo Blog API">
+    <meta name="Description" content="Evo Blog API">
+    <title>Evo Blog API</title>
+</head>
+
+<body id="api">
+    <form action="/api/backend" method="post">
+        <% if(message) { %>
+            <p>
+                <%= message %>
+            </p>
+            <% } %>
+                <h1>adding administrator</h1>
+                <p>username: <input type="text" name="username"></p>
+                <p>email: <input type="email" name="email"></p>
+                <p>password: <input type="password" name="password"></p>
+                <p><input type="submit" value="add" name="submit"></p>
+    </form>
+</body>
+
+</html>
