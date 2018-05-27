@@ -1,11 +1,11 @@
 # EVO BLOG API
 
-This API is used for [evo blog](#).
+This API is used for [evo blog](https://github.com/gorgila/evo-blog).
 
 
 ## Usage
 
-Before starting, please make sure **MySQL**, **NodeJS** are installed on your local machine.
+Before starting, please make sure **MySQL** and **NodeJS** are installed on your local machine.
 
 Install the required node modules
 ```sh
